@@ -38,7 +38,7 @@ Create a `.env` file in the project root directory and add the following content
 ```env
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=1234
+DB_PASSWORD="please use your password"
 DB_NAME=hacker_news
 PORT=3000
 ```
