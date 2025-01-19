@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS hacker_news;
+
+USE hacker_news;
+
+CREATE TABLE IF NOT EXISTS stories (
+  id VARCHAR(255) PRIMARY KEY,
+  title TEXT,
+  url TEXT,
+  score TEXT,
+  author VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
